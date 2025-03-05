@@ -1,0 +1,23 @@
+- HTML stand for Hyper Text Markup Language
+- We use HTML to describe the content of web pages
+- HTML document is made out of elements, and we write elements with an opening and closing tag.
+  EX: opening tag <element> and closing tag </element>
+      <h1> Hello, World! </h1>
+- Every html document must start and end with html tag
+- Then we usually have head and body tags
+- Within the head tag we can add a title tag 
+
+HTML Boiler Plate:
+<html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+
+
+
+index.html is a convention for naming the main file of the project

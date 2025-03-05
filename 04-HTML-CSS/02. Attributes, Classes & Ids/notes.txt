@@ -1,0 +1,15 @@
+HTML Attributes
+  - All HTML elements can have attributes
+  - Attributes provide additional information about elements
+  - Attributes are always specified in the start tag
+  - Attributes usually come in name/value pairs like: name="value"
+
+Example:
+<a href="https://developer.mozilla.org/en-US/">Visit MDN Web Docs</a>
+
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to.
+
+Example: 
+<img src="./images/course.jpg">
+
+The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed.
