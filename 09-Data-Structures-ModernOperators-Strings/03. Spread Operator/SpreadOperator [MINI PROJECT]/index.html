@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spread Operator Tutorial!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flex-row">
+    <div class="flex-col">
+      <h2>Please choose 3 addons for your club sandwich:</h2>
+      <div class="flex-row item">
+        <input type="checkbox" class="addOns" value="Lettuce" />
+        🥬 Lettuce
+        <span class="price">$ 0.99</span>
+      </div>
+      <div class="flex-row item">
+        <input type="checkbox" class="addOns" value="Tomatoes" />
+        🍅 Tomatoes
+        <span class="price">$ 0.99</span>
+      </div>
+      <div class="flex-row item">
+        <input type="checkbox" class="addOns" value="Cucumbers" />
+        🥒 Cucumbers
+        <span class="price">$ 0.99</span>
+      </div>
+      <div class="flex-row item">
+        <input type="checkbox" class="addOns" value="Onions" />
+        🧅 Onions
+        <span class="price">$ 0.99</span>
+      </div>
+      <div class="flex-row item">
+        <input type="checkbox" class="addOns" value="Olives" />
+        🫒 Olives
+        <span class="price">$ 0.99</span>
+      </div>
+      <div class="flex-row item">
+        <input type="checkbox" class="addOns" value="Corn" />
+        🌽 Corn
+        <span class="price">$ 0.99</span>
+      </div>
+      <div class="flex-row item">
+        <input type="checkbox" class="addOns" value="Cheese" />
+        🧀 Cheese
+        <span class="price">$ 1.50</span>
+      </div>
+
+      <div class="flex-row">
+        <button class="open-modal" id="submit">Submit</button>
+      </div>
+      <div class="modal-container" id="modal-container">
+        <div class="modal">
+          <p id="message-confirm"></p>
+          <button class="buttons close-modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
